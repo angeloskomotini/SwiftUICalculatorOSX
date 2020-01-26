@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6ECAC2E23DCFFEE00AE3191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECAC2D23DCFFEE00AE3191 /* AppDelegate.swift */; };
+		D6ECAC3023DCFFEE00AE3191 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECAC2F23DCFFEE00AE3191 /* ContentView.swift */; };
+		D6ECAC3223DCFFFB00AE3191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6ECAC3123DCFFFB00AE3191 /* Assets.xcassets */; };
+		D6ECAC3523DCFFFB00AE3191 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6ECAC3423DCFFFB00AE3191 /* Preview Assets.xcassets */; };
+		D6ECAC3823DCFFFB00AE3191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6ECAC3623DCFFFB00AE3191 /* Main.storyboard */; };
+		D6ECAC4423DCFFFB00AE3191 /* SwiftUICalculatorOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECAC4323DCFFFB00AE3191 /* SwiftUICalculatorOSXTests.swift */; };
+		D6ECAC4F23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECAC4E23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6ECAC4023DCFFFB00AE3191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6ECAC2223DCFFED00AE3191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6ECAC2923DCFFED00AE3191;
+			remoteInfo = SwiftUICalculatorOSX;
+		};
+		D6ECAC4B23DCFFFB00AE3191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6ECAC2223DCFFED00AE3191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6ECAC2923DCFFED00AE3191;
+			remoteInfo = SwiftUICalculatorOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6ECAC2A23DCFFEE00AE3191 /* SwiftUICalculatorOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICalculatorOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ECAC2D23DCFFEE00AE3191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6ECAC2F23DCFFEE00AE3191 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6ECAC3123DCFFFB00AE3191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6ECAC3423DCFFFB00AE3191 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6ECAC3723DCFFFB00AE3191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6ECAC3923DCFFFB00AE3191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6ECAC3A23DCFFFB00AE3191 /* SwiftUICalculatorOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUICalculatorOSX.entitlements; sourceTree = "<group>"; };
+		D6ECAC3F23DCFFFB00AE3191 /* SwiftUICalculatorOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICalculatorOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ECAC4323DCFFFB00AE3191 /* SwiftUICalculatorOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalculatorOSXTests.swift; sourceTree = "<group>"; };
+		D6ECAC4523DCFFFB00AE3191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6ECAC4A23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICalculatorOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ECAC4E23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalculatorOSXUITests.swift; sourceTree = "<group>"; };
+		D6ECAC5023DCFFFB00AE3191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6ECAC2723DCFFED00AE3191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECAC3C23DCFFFB00AE3191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECAC4723DCFFFB00AE3191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6ECAC2123DCFFED00AE3191 = {
+			isa = PBXGroup;
+			children = (
+				D6ECAC2C23DCFFEE00AE3191 /* SwiftUICalculatorOSX */,
+				D6ECAC4223DCFFFB00AE3191 /* SwiftUICalculatorOSXTests */,
+				D6ECAC4D23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests */,
+				D6ECAC2B23DCFFEE00AE3191 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6ECAC2B23DCFFEE00AE3191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECAC2A23DCFFEE00AE3191 /* SwiftUICalculatorOSX.app */,
+				D6ECAC3F23DCFFFB00AE3191 /* SwiftUICalculatorOSXTests.xctest */,
+				D6ECAC4A23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6ECAC2C23DCFFEE00AE3191 /* SwiftUICalculatorOSX */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECAC2D23DCFFEE00AE3191 /* AppDelegate.swift */,
+				D6ECAC2F23DCFFEE00AE3191 /* ContentView.swift */,
+				D6ECAC3123DCFFFB00AE3191 /* Assets.xcassets */,
+				D6ECAC3623DCFFFB00AE3191 /* Main.storyboard */,
+				D6ECAC3923DCFFFB00AE3191 /* Info.plist */,
+				D6ECAC3A23DCFFFB00AE3191 /* SwiftUICalculatorOSX.entitlements */,
+				D6ECAC3323DCFFFB00AE3191 /* Preview Content */,
+			);
+			path = SwiftUICalculatorOSX;
+			sourceTree = "<group>";
+		};
+		D6ECAC3323DCFFFB00AE3191 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECAC3423DCFFFB00AE3191 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6ECAC4223DCFFFB00AE3191 /* SwiftUICalculatorOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECAC4323DCFFFB00AE3191 /* SwiftUICalculatorOSXTests.swift */,
+				D6ECAC4523DCFFFB00AE3191 /* Info.plist */,
+			);
+			path = SwiftUICalculatorOSXTests;
+			sourceTree = "<group>";
+		};
+		D6ECAC4D23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECAC4E23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests.swift */,
+				D6ECAC5023DCFFFB00AE3191 /* Info.plist */,
+			);
+			path = SwiftUICalculatorOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6ECAC2923DCFFED00AE3191 /* SwiftUICalculatorOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ECAC5323DCFFFB00AE3191 /* Build configuration list for PBXNativeTarget "SwiftUICalculatorOSX" */;
+			buildPhases = (
+				D6ECAC2623DCFFED00AE3191 /* Sources */,
+				D6ECAC2723DCFFED00AE3191 /* Frameworks */,
+				D6ECAC2823DCFFED00AE3191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUICalculatorOSX;
+			productName = SwiftUICalculatorOSX;
+			productReference = D6ECAC2A23DCFFEE00AE3191 /* SwiftUICalculatorOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6ECAC3E23DCFFFB00AE3191 /* SwiftUICalculatorOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ECAC5623DCFFFC00AE3191 /* Build configuration list for PBXNativeTarget "SwiftUICalculatorOSXTests" */;
+			buildPhases = (
+				D6ECAC3B23DCFFFB00AE3191 /* Sources */,
+				D6ECAC3C23DCFFFB00AE3191 /* Frameworks */,
+				D6ECAC3D23DCFFFB00AE3191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6ECAC4123DCFFFB00AE3191 /* PBXTargetDependency */,
+			);
+			name = SwiftUICalculatorOSXTests;
+			productName = SwiftUICalculatorOSXTests;
+			productReference = D6ECAC3F23DCFFFB00AE3191 /* SwiftUICalculatorOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6ECAC4923DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ECAC5923DCFFFC00AE3191 /* Build configuration list for PBXNativeTarget "SwiftUICalculatorOSXUITests" */;
+			buildPhases = (
+				D6ECAC4623DCFFFB00AE3191 /* Sources */,
+				D6ECAC4723DCFFFB00AE3191 /* Frameworks */,
+				D6ECAC4823DCFFFB00AE3191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6ECAC4C23DCFFFB00AE3191 /* PBXTargetDependency */,
+			);
+			name = SwiftUICalculatorOSXUITests;
+			productName = SwiftUICalculatorOSXUITests;
+			productReference = D6ECAC4A23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6ECAC2223DCFFED00AE3191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Angelos Staboulis";
+				TargetAttributes = {
+					D6ECAC2923DCFFED00AE3191 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D6ECAC3E23DCFFFB00AE3191 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D6ECAC2923DCFFED00AE3191;
+					};
+					D6ECAC4923DCFFFB00AE3191 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D6ECAC2923DCFFED00AE3191;
+					};
+				};
+			};
+			buildConfigurationList = D6ECAC2523DCFFED00AE3191 /* Build configuration list for PBXProject "SwiftUICalculatorOSX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6ECAC2123DCFFED00AE3191;
+			productRefGroup = D6ECAC2B23DCFFEE00AE3191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6ECAC2923DCFFED00AE3191 /* SwiftUICalculatorOSX */,
+				D6ECAC3E23DCFFFB00AE3191 /* SwiftUICalculatorOSXTests */,
+				D6ECAC4923DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6ECAC2823DCFFED00AE3191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ECAC3823DCFFFB00AE3191 /* Main.storyboard in Resources */,
+				D6ECAC3523DCFFFB00AE3191 /* Preview Assets.xcassets in Resources */,
+				D6ECAC3223DCFFFB00AE3191 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECAC3D23DCFFFB00AE3191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECAC4823DCFFFB00AE3191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6ECAC2623DCFFED00AE3191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ECAC3023DCFFEE00AE3191 /* ContentView.swift in Sources */,
+				D6ECAC2E23DCFFEE00AE3191 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECAC3B23DCFFFB00AE3191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ECAC4423DCFFFB00AE3191 /* SwiftUICalculatorOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECAC4623DCFFFB00AE3191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ECAC4F23DCFFFB00AE3191 /* SwiftUICalculatorOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6ECAC4123DCFFFB00AE3191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6ECAC2923DCFFED00AE3191 /* SwiftUICalculatorOSX */;
+			targetProxy = D6ECAC4023DCFFFB00AE3191 /* PBXContainerItemProxy */;
+		};
+		D6ECAC4C23DCFFFB00AE3191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6ECAC2923DCFFED00AE3191 /* SwiftUICalculatorOSX */;
+			targetProxy = D6ECAC4B23DCFFFB00AE3191 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6ECAC3623DCFFFB00AE3191 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6ECAC3723DCFFFB00AE3191 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6ECAC5123DCFFFB00AE3191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6ECAC5223DCFFFB00AE3191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D6ECAC5423DCFFFB00AE3191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftUICalculatorOSX/SwiftUICalculatorOSX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICalculatorOSX/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUICalculatorOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUICalculatorOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6ECAC5523DCFFFB00AE3191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftUICalculatorOSX/SwiftUICalculatorOSX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICalculatorOSX/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUICalculatorOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUICalculatorOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D6ECAC5723DCFFFC00AE3191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftUICalculatorOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUICalculatorOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUICalculatorOSX.app/Contents/MacOS/SwiftUICalculatorOSX";
+			};
+			name = Debug;
+		};
+		D6ECAC5823DCFFFC00AE3191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftUICalculatorOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUICalculatorOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUICalculatorOSX.app/Contents/MacOS/SwiftUICalculatorOSX";
+			};
+			name = Release;
+		};
+		D6ECAC5A23DCFFFC00AE3191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftUICalculatorOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUICalculatorOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftUICalculatorOSX;
+			};
+			name = Debug;
+		};
+		D6ECAC5B23DCFFFC00AE3191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftUICalculatorOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUICalculatorOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftUICalculatorOSX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6ECAC2523DCFFED00AE3191 /* Build configuration list for PBXProject "SwiftUICalculatorOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ECAC5123DCFFFB00AE3191 /* Debug */,
+				D6ECAC5223DCFFFB00AE3191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ECAC5323DCFFFB00AE3191 /* Build configuration list for PBXNativeTarget "SwiftUICalculatorOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ECAC5423DCFFFB00AE3191 /* Debug */,
+				D6ECAC5523DCFFFB00AE3191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ECAC5623DCFFFC00AE3191 /* Build configuration list for PBXNativeTarget "SwiftUICalculatorOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ECAC5723DCFFFC00AE3191 /* Debug */,
+				D6ECAC5823DCFFFC00AE3191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ECAC5923DCFFFC00AE3191 /* Build configuration list for PBXNativeTarget "SwiftUICalculatorOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ECAC5A23DCFFFC00AE3191 /* Debug */,
+				D6ECAC5B23DCFFFC00AE3191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6ECAC2223DCFFED00AE3191 /* Project object */;
+}
